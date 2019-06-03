@@ -19,7 +19,8 @@ var children2 = p2.childNodes
 
 /*
 console.log(children1)
-console.log(children2[0].data)//permet d'acceder a la valeur contenu dans mon tableau (créer avec childNodes) ayant pour index 0
+console.log(children2[0].data)//permet d'acceder a la valeur contenu dans mon tableau (créer avec childNodes)
+ ayant pour index 0
 */
 
 for(var i =0; i<children1.length;i++)
