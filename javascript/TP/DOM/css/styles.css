@@ -1,0 +1,261 @@
+/* Gris foncé : #505050
+Gris clair : #606060
+Gris très clair : #A6A6A6 
+
+font-size 52px / 28px pour les titres*/
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+body{
+    background-image: url(../elements/bg.png);   
+}
+
+.general{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0 50px 300px 50px;
+    
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h1{
+    
+    color: #505050;
+    font-size: 52px;
+    font-family: 'Terminal Dosis';
+    padding-top: 50px;
+    padding-left: 40px;
+    
+}
+
+h2{
+    color: #505050 ;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 38px;
+    margin-bottom: 22px;
+
+}
+
+h4{
+    padding-top: 37.5px;
+    text-align: center;
+    padding-bottom: 37.5px;  
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.legende{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titre{
+    margin-bottom: 25px;
+    margin-left:-40px;
+
+}
+
+.test2{
+    visibility: hidden;
+}
+
+.menu{
+    border: solid;
+    border-width: 1px;
+    border-color: #a6a6a6;
+    border-right: hidden;
+    border-left: hidden;
+    background-image: url(../elements/bg.png);
+    height:30px;
+    padding-bottom: 60px;
+    
+}
+
+.menu nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding:25px;
+   margin-left: 15px;
+}
+
+.menu nav li:hover .sub{
+    display: inline-block;
+    position: absolute;
+    background-image: url(../elements/bg.png);
+    padding: 2px;
+    padding-right: 20px;
+    margin-left:-50px; 
+    margin-right: 20px;
+    width: 200px;
+    margin-top:32.5px;
+}
+
+
+
+
+.sub{
+    display: none;
+    text-align: center;
+}
+
+.image_nuage{
+    
+}
+
+p{
+    color: #505050;
+}
+
+p#last{
+    margin-bottom: 50px;
+}
+
+p#image{
+    text-indent: -99999px;
+    background-image: url(../elements/image1.jpg);
+    padding-bottom: 508px;
+}
+
+.separation{
+    background-image: url(../elements/bg.png);
+    text-indent: -999999px;
+    width: 100%;
+    height: 40px;;
+}
+hr#top1{
+    margin-bottom: -17.3px;  
+}
+
+hr#bas1{
+    margin-top: -17.3px;
+}
+
+hr#top2{
+    margin-bottom: -17px;
+    width: 1069px;
+    margin-right: 80px;
+    margin-left: -10px;
+}
+
+.foot .post ul{
+    margin-left:  30px;
+    
+}
+
+.post{
+    text-align: left;
+    
+}
+    
+.foot p{
+    font-weight: 900;
+    text-align: left;
+}   
+    
+.post p{
+    margin-left: 20px;
+}
+
+.comment p{
+    margin-left: 40px;
+}
+
+.archives p{
+    margin-left: 40px;
+    
+}
+
+.comment{
+    text-align: left;
+}
+.foot nav ul li{
+    list-style-type:none; 
+    background-image: url(../elements/bg.png);
+    
+    
+}
+.foot nav ul li ul li a{
+    margin-left: -50px;
+    text-align: justify;    
+}
+
+
+.foot .post{
+    background-color: black;
+    display: block;
+    float: left;
+    margin-left: -50px;
+    padding-bottom: 112px;    
+}
+
+.foot .comment{
+    background-color: black;
+    display: block;
+    float: left;
+    width: 25%;
+    padding-bottom: 40px;
+   
+}
+
+.foot .archives{
+    background-color: black;
+    display: block;
+    float: left;
+    width: 25%;
+    padding-bottom: 130px;
+    
+}
+
+.foot .comment ul li a{  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foot .comment ul li a{ 
+    padding-left: 50px;
+}
+
+.foot .archives ul li a{ 
+    padding-left: 50px;
+}
+
+.foot .categories ul li a{    
+    padding-left: 10px;
+}
+
+.foot .categories{
+    
+    display: block;
+    float: left;
+    width: 25%;
+    padding-bottom: 166px;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+
+a:visited{
+    color:grey;
+}

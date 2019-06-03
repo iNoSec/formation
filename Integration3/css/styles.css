@@ -1,0 +1,251 @@
+/* 
+Fonts :
+- la typo utilisé est "News Cycle" => https://www.google.com/fonts#UsePlace:use/Collection:News+Cycle
+font-family: 'News Cycle';
+- titre : 55px
+- sous titre : 22px
+- la taille de tous les textes est de 17px 
+
+Couleurs :
+- texte vert (rollover) : #27AE61
+- texte gris foncé : #2B3F48
+- gris clair : #656565
+- blanc (grisé) : rgba(255,255,255,.8) => blanc avec une opacité de 0.8
+*/
+*{
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'News Cycle';
+}
+
+
+
+h1{
+    color: #2B3F48;
+    font-size: 55px;
+    font-family: 'News Cycle';
+    padding: 0 0 0 100px;
+    float: left;
+    font-weight: lighter;
+    margin-top: -20px;
+    margin-left: -10px;
+   
+}
+
+
+
+.head{
+    background-color: #eeeeee;
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    padding-top: 40px;
+    margin-top: -20px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu nav ul li{
+    display: inline-block;
+}
+
+.menu nav ul{
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+.menu nav ul li a{
+    font-size: 0.87em;
+    text-decoration: none;
+    color: #2B3F48;
+    padding: 20px;
+    font-weight: 700;
+}
+.menu nav ul li a:hover{
+    color: #31aa65;
+}
+
+#banner{
+    height: 850px;
+    text-align: center;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #31aa65;
+}
+
+.photo{
+    margin-top: -6px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.photo img{
+    border-radius:200px;
+    width:200px;
+    height:auto;
+    margin: 25px;
+}
+
+#sub1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+#sub2{
+    color: #2B3F48;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 30px;
+}
+
+#sub3{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 100px;
+}
+
+.soustitre1{
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.p_grise a{
+color: white;
+}
+
+.p_grise{
+    color: rgba(255,255,255,.8);
+    margin: 50px 100px;
+}
+
+.bouton1{
+    padding: 30px 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: #2B3F48;
+    font-size: 17px;
+}
+
+.bouton1:hover{
+    color: #2B3F48;
+    background-color: white;
+}
+
+.bouton1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.bouton1:hover a{
+    text-decoration: none;
+    color: #31aa65;
+}
+
+.bouton2{
+    margin: 50px 0;
+    padding: 30px 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: #31aa65;
+    font-size: 17px;
+    
+}
+
+.bouton2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.bouton2:hover{
+    color: #27AE61;
+    background-color: white;
+}
+
+.bouton2:hover a{
+    text-decoration: none;
+    color: #31aa65;
+}
+
+.bouton3{
+    padding: 30px 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    color:#31aa65;
+    background-color: white;
+    margin-bottom: 100px;
+    font-size: 17px;
+}
+
+.bouton3:hover{
+    color: white;
+    background-color: grey;
+}
+
+.bouton3 a{
+    text-decoration: none;
+    color: #31aa65;
+}
+
+.bouton3:hover a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.section2{
+    background-color: #eeeeee;
+    padding-top: 50px;
+    color:#9b9393;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.p_dark{
+    color:#b3acac;
+    font-weight: bolder;
+    margin: 0 100px;
+}
+
+.soustitre2{
+    padding-bottom: 50px;
+}
+
+.section3{
+    background-color:#31aa65;
+    text-align: center;
+}
+
+footer{
+    background-color: #eeeeee;
+    height: 100px;
+    color: #9b9393;
+    padding-bottom: 50px;
+
+}
+
+span{
+    font-size: 60px;
+}
