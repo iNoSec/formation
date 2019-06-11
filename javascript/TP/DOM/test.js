@@ -16,6 +16,24 @@ function change(e){
 }
 test.onclick = change;*/
 
-myMenu = document.getElementById("menuId")
+legende = document.getElementById("legende")
+console.log("Voici mon code html de ma div: " + legende.innerHTML)
+console.log("legende.textContent: " + legende.textContent)
+console.log("legende.firstChild: " + legende.firstChild) // h3
+console.log("legende.firstChild.textContent: " + legende.firstChild.textContent)//contenu du h3
+console.log("legende.firstChild.nextSibling.firstChild.textContent : " + legende.firstChild.nextSibling.firstChild.textContent)
+console.log("legende.lastChild: " + legende.lastChild)
+console.log("legende.lastChild.fisrtChild.textContent: " + legende.lastChild.firstChild.textContent)
+console.log("legende.lastChild.textContent: " + legende.lastChild.textContent)
+console.log("legende.lastChild.previousSibling.textContent: " + legende.lastChild.previousSibling.textContent)
+console.log("legende.lastElementChild: " + legende.lastElementChild)
+console.log("legende.lastElementChild.textContent: " + legende.lastElementChild.textContent)
 
+
+
+
+/*
 alert(myMenu.innerHTML)
+alert(myMenu.firstChild.innerHTML)
+alert(myMenu.firstChild.nextSibling.innerHTML)
+*/

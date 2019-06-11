@@ -1,0 +1,275 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   background-image: url(../images/bg-tile.gif);
+   text-align: center;
+   color: #4b2707;
+}
+
+.container {
+   
+     }
+
+
+/* Typography */
+
+h1, h2 {
+   
+      font-family: 'Love Ya Like A Sister';
+      font-style: normal;
+      font-weight: 400;
+}
+
+h1 {
+color: #d17f38;
+background-image: url(../images/header-divider.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+padding-bottom: 30px;
+
+}
+
+h1 em {
+   color: #4b2707;
+}
+
+h2 {
+   color: #d17f38;
+
+}
+
+h3 {
+   color: #4b2707;
+
+}
+
+p.lead {
+   font-size: 25px;
+   font-family: 'Love Ya Like A Sister';
+}
+
+p {
+
+}
+
+a:link, a:visited {
+   color:#d17f38;
+
+}
+
+a:hover {
+  
+}
+
+hr { 
+   clear: both;
+   visibility: hidden;
+  
+  
+}
+
+
+/* Header */
+
+header nav {
+   background-image: url(../images/bg-tile.gif) ;
+   height: 200px;
+  
+   
+}
+
+header nav ul {
+   font-weight: bold;
+   
+   
+}
+
+header nav ul li {
+   
+   list-style-type:none;
+   float: left;
+   padding:40px;
+   margin-top: 50px;
+   margin-left: 120px;
+}
+
+header nav ul li a {
+   color: #d17f38;
+   text-decoration: none;
+}
+
+header nav ul li a:hover {
+   background-image: url(../images/tiny-donut.png);
+   color: #4b2707;
+   }
+
+header nav ul li#logo a {
+   display : inline-block;
+	width : 260px;
+	height : 140px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+   background : transparent url(../images/logo.png) no-repeat top left;
+   margin-left: 100px;
+   margin-right: 160px;
+   margin-top: -50px;
+}
+
+header nav ul li#logo a:hover {
+
+}
+
+
+/* Hero */
+
+#hero {
+   
+   
+}
+
+#hero .container {
+   background-image: url(../images/bg-tile-yellow.gif) ;
+   text-align: center;
+   
+
+}
+
+#hero .large-ribbon {
+   background-image: url(../images/fresh-whole-ingredients.png) ;
+   height: 190px;
+   width: 150px;
+   position: absolute; 
+   top: 170px ;
+   left: 1290px ;
+   text-indent : -9999px;
+
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+   margin: 0px 1000px 0px 500px;
+   text-align: justify;
+   
+   }
+
+#best-donut {
+   margin: -90px 0px 0px 1000px;
+   background-image: url(../images/award.png);
+   background-repeat: no-repeat;
+   background-position:left;
+   text-align: center;
+   }
+/* News & Events */
+
+#articles {
+   margin: 50px 1000px 50px 500px;
+   text-align: justify;
+   }
+
+#feature-image {
+   margin: -475px 0px 100px 500px;
+   
+}
+
+#news-events article {
+   
+   
+
+}
+
+#news-events article.news {
+   
+   
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+   color: #d17f38;
+
+}
+
+#news-events section.excerpt {
+   
+
+
+}
+
+#news-events footer {
+   
+
+}
+
+
+/* Footer */
+
+footer.main {
+   background-image: url(../images/bg-tile-brown.gif);
+   width: auto;
+   height: 150px;
+
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+   color:white;
+   font-size: 12px;
+}
+
+#uncopyright {
+padding-top: 50px;
+padding-right: 600px;
+background-image: url(../images/icon-recycle.png);
+background-repeat: no-repeat;
+background-position: 505px 65px;
+background-size: 35px;
+}
+
+#credits {
+   padding-left: 600px;
+   margin-top: -40px;
+   background-image: url(../images/icon-apple.png);
+   background-repeat: no-repeat;
+   background-position: 1070px;
+   background-size: 10px;
+   
+   }
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
