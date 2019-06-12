@@ -1,0 +1,8 @@
+.dropright:hover > .dropdown-menu {
+    display: block;
+    text-decoration: none;
+    }
+.dropright a:hover{
+    text-decoration: none;
+}
+    
