@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="suivant" onclick=suivant()>Suivant</button>
+    <button id="suivant" onclick=suiclick()>Suivant</button>
     <button id="precedent" onclick=precedent()>Precedent</button>
     <ul id="carousel">
         <li>Case 1</li>
@@ -15,5 +15,47 @@
         <li>Case 4</li>
     </ul>
     <script src="js.js"></script>
+    <!--<script type="text/javascript">
+        $carousel=document.getElementById('carousel');
+        $suivant=document.getElementById('suivant');
+        $c = document.getElementById("carousel").children;
+        $cmax = (document.getElementById("carousel").children.length)-1;
+        $tmax = (document.getElementById("carousel").children.length);
+        $position = 0;
+        $prec = document.getElementById("precedent");
+    
+    
+        $carousel.style.borderColor='#f00';
+            
+    
+        $suivant.onclick= function suiclick(){
+            
+            if ($position < $cmax){
+                 $c[$position].style.display="none";
+                $position++;
+             }
+             else{
+                 $position=0;
+                 for (i=0; i < $cmax;i++ ){
+                     $c[i].style.display=null;
+                 }
+             }
+                 
+        }
+    
+        $prec.onclick= function precedent(){
+            if ($position > 0){
+                     $c[$position-1].style.display=null;
+                    $position--;
+            }
+            else{
+               $position=3;
+               for (i=$position-1; i > 0-1;i-- ){
+                     $c[i].style.display="none";
+                 }
+             }
+            }
+    
+    </script>-->
 </body>
 </html>

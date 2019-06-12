@@ -10,33 +10,31 @@ var position2 = carou.length - 1
 var position3 = carou.length + 1
 
 function suivant(){
-    if(position == position2){
-        position =0;
-        for(var i=0;i<carou.length;i++)
-        carou[i].removeAttribute("style", "display: none;")       
+    if(position < position2){
+        carou[position].style.display="none";
+        position++;
+               
     }
 
     else{
-        carou[position].style.display="none";
-        position++;
+        position =0;
+        for(var i=0;i<carou.length;i++)
+        carou[i].removeAttribute("style", "display: none;")
     }
 }
 
+
 function precedent(){
-    if(position == position3){
-        position=0;
-        for(var i=0;i<carou.length;i--)
-        carou[i].style.display="none";       
-    }  
-    
-    else{
+    if(position >0-1){
         carou[position].style.display=null;
-        position--;
+        position--;     
+    }  
+    else{
+        position=2;
+        for(var i=position;i>0-1;i--)
+        carou[i].style.display="none"; 
     }
 
 }
 suivant1.onclick = suivant;
 precedent1.onclick= precedent;
-
-
-/* faire une condition si carou[0] go to carou[carou.length] */
