@@ -201,7 +201,7 @@ alert("Il y a " + nbp + " positifs et " + nbn + " négatifs dans vos valeurs");
 //exo 7.1
 
 // on cree le tableau bleu, contenant les lignes
-var grille = [];
+/*var grille = [];
 
 var userL = prompt("Entrez la longueur du tableau")
 var userl = prompt("Entrez la largeur du tableau")
@@ -217,4 +217,6 @@ for(var i=0; i<userL; i++){
       grille[i][j] = user_val;
 }
 }
-console.log(grille)
+console.log(grille)*/
+
+
