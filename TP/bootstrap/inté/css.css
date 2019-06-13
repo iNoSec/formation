@@ -1,0 +1,17 @@
+.dropright:hover > .dropdown-menu {
+    display: block;
+    text-decoration: none;
+    }
+.dropright a:hover{
+    text-decoration: none;
+}
+    
+nav {
+    position: fixed;
+    height: 100%;
+}
+
+.gris{
+    background-color: grey;
+}
+
