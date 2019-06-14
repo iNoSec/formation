@@ -1,6 +1,8 @@
 var tableau = ["Bob","Pj","Dom"];
 var liste =document.getElementById("liste")
 
+
+
 function ajouter(){                                                 
     for(var i=0; i<tableau.length;i++)                                        
         {     
@@ -10,6 +12,7 @@ function ajouter(){
             newli.appendChild(prenom)                                                     
         }                                                                   
 }  
+
 /*
 function afficherListe(){
     if (liste.firstChild == li){
