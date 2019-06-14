@@ -1,4 +1,5 @@
-/* Exercice 1
+//Exercice 1
+/* 
 var bool = false
 var tab = [4,6,10,14]
 var i = 6
@@ -6,20 +7,23 @@ var e = i
 */
 
 
-/*exo2
+//exo2
+/*
 var tab = [4,6,10,14]
 var i = 0
 var e = 10*/
 
-/*exo3
+//exo3
+/*
 var tab = [4,6,10,14]
 var e = 6
 var j = 0*/
 
 /*exo4*/
+/*
 var tab = [4,6,8]
 var i = 0
-var e = 10
+var e = 10*/
 
 /*Exo 1
 for (i=0; i<= tab.length;i++){
@@ -62,6 +66,7 @@ console.log("tu as un 10 a l'index" + i )
 }*/
 
 //Exo 4
+/*
 while ((tab[i] != e) && (tab[i]<e)){
         i++;
 }
@@ -73,4 +78,4 @@ console.log("tu as un 10 a l'index" + i + " ou si tu preferes a la " + convert +
 else{
     console.log("tu n'as pas de 10")
 
-}
+}*/
