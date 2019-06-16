@@ -83,30 +83,28 @@ else{
 //Exo5
 
 var tab = [4,6,10,14,16,20,45,52,68,72,90,99,100]
-var e = 99
+var e = 6
 var mid = Math.ceil(tab.length / 2)
 var val = tab[mid]
-var ifin = tab.length - 1
+var fin = tab.length - 1
 
 
 while ((val < e || val > e) && mid >= 1){
    if (e > val ) {
-        //redefinir le debut de mon tab a mid
-        mid = Math.ceil(mid/2)
+        mid = Math.ceil((mid+fin)/2)
         val = tab[mid]
    }
    else {
         mid = Math.ceil(mid/2)
         val = tab[mid]
-        console.log(val + " : " + mid)
    }
 }
 
 if (val == e){
-    console.log("trouvé")
+    console.log("Le chiffre " + e + " est dans le tableau a l'index " + mid + ".")
 }
 else{
-    console.log("Pas trouvé")
+    console.log("Le chiffre " + e + " est dans le tableau")
 }
 
 
